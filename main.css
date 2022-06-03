@@ -1,0 +1,76 @@
+:root {
+    --light-gray: #94a1a5ef;
+    --yankees-blue: #1C2541;
+    --sea-serpent: #5bc0be;
+    --react: rgb(139, 213, 238);
+}
+
+html {
+    background: var(--light-gray);
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color:green;
+}
+
+.container {
+    margin: 0%;
+    background: var(--light-gray);
+}
+
+.Board {
+    margin-top: 2%;
+    border: 0;
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 220px 450px;
+    gap:40px 40px;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.Reviews {
+    border: 1px;
+    background-color: aliceblue;
+
+}
+
+.AverageRating {
+    border: 1px;
+    background-color: aliceblue;
+
+}
+
+.SentimentAnalysis {
+    border: 1px;
+    background-color: aliceblue;
+
+}
+
+.WebsiteVisitor{
+    border: 1px;
+    background-color: aliceblue;
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+}
+
+.Box {
+    width:900px;
+    height:280px;
+    background-color: burlywood;
+    margin-left: 7%;
+}
+
+.Dashboard {
+    border: 1px;
+    background-color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
